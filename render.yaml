@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: infrabyte-whatsapp-webhook
+    env: node
+    repo: https://github.com/arunfood/infrabyte-whatsapp-webhook
+    branch: main
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    plan: free
